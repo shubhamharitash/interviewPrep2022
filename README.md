@@ -5,7 +5,10 @@
     - [Daniel Lang Book](https://moodle.dallastown.k12.pa.us/pluginfile.php/379743/mod_resource/content/1/Java%20Text%20-%20Liang.pdf)
     - [Daniel Lang Solutions](https://github.com/HarryDulaney/intro-to-java-programming)
   - Resources
+    - [Intellij CodeWithHarry setup](https://www.youtube.com/watch?v=ntLJmHOJ0ME)
     - [Oracle Docs](https://docs.oracle.com/javase/8/docs/)
+  - Cheatsheets
+    - [Princeton](https://introcs.cs.princeton.edu/java/11cheatsheet/)
   - Introduction
   - Elementary Programming
   - Selections
