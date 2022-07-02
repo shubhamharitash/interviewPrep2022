@@ -1,6 +1,6 @@
 ## Interview Preparation 2022
 
-- Java Basics
+### Java Basics
   - Books
     - [Daniel Lang Book](https://moodle.dallastown.k12.pa.us/pluginfile.php/379743/mod_resource/content/1/Java%20Text%20-%20Liang.pdf)
     - [Daniel Lang Solutions](https://github.com/HarryDulaney/intro-to-java-programming)
@@ -56,7 +56,7 @@
   - Weighted Graphs and Applications
   - JAVA RegEx
 
-- DS Algo Topics
+### DS Algo Topics
   - Data Structure
     - Array and Matrix
       - Problems
@@ -138,3 +138,13 @@
     - Geometric Algorithms
     - Fast Fourier Transform
     - Heavy Light Decomposition(HLD)
+
+### Open Source Projects to Explore
+  - [ ] kubernetes
+  - [ ] express
+  - [ ] terraform
+  - [ ] django
+  - [ ] deno
+  - [ ] spark
+  - [ ] kafka
+  - [ ] asyncapi
