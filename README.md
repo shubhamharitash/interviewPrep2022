@@ -1,6 +1,56 @@
 ## Interview Preparation 2022
 
 - Java Basics
+  - Books
+    - [Daniel Lang Book](https://moodle.dallastown.k12.pa.us/pluginfile.php/379743/mod_resource/content/1/Java%20Text%20-%20Liang.pdf)
+    - [Daniel Lang Solutions](https://github.com/HarryDulaney/intro-to-java-programming)
+  - Resources
+    - [Oracle Docs](https://docs.oracle.com/javase/8/docs/)
+  - Introduction
+  - Elementary Programming
+  - Selections
+  - Mathematical Functions, Characters and Strings
+  - Loops
+  - Methods
+  - Single-Dimensional Arrays
+  - Multidimensional Arrays
+  - Objects and Classes
+  - Object-Oriented Thinking
+  - Inheritance and Polymorphism
+  - Exception Handling and I/O
+  - Abstract Classes and Interfaces
+  - Recursion
+  - Generics
+  - Java 8 Features
+    - Links
+      - [Oracle](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
+      - [Baeldung](https://www.baeldung.com/java-8-new-features)
+      - [Javatpoint](https://www.javatpoint.com/java-8-features)
+    - Lambda expressions,
+    - Method references,
+    - Functional interfaces,
+    - Stream API,
+    - Default methods,
+    - Base64 Encode Decode,
+    - Static methods in interface,
+    - Optional class,
+    - Collectors class,
+    - ForEach() method,
+    - Nashorn JavaScript Engine,
+    - Parallel Array Sorting,
+    - Type and Repating Annotations,
+    - IO Enhancements,
+    - Concurrency Enhancements,
+    - JDBC Enhancements etc.
+  - Lists, Stacks, Queues and Priority Queues
+  - Sets and Maps
+  - Sorting
+  - Implementing Lists, Stacks, Queues and Priority Queues
+  - Binary Search Trees
+  - AVL Trees
+  - Hashing
+  - Graphs and Applications
+  - Weighted Graphs and Applications
   - JAVA RegEx
 
 - DS Algo Topics
@@ -45,6 +95,7 @@
       - [CP Book](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp2.pdf)
       - [Codeforces List of Resources](https://codeforces.com/blog/entry/13529)
       - [Codeforces Tutorials](https://codeforces.com/blog/entry/57282)
+      - [Google Docs Competitive Roadmap](https://docs.google.com/document/d/1Dekcb39QM2tyH1b4Lwvhm7SirdHM3HoJCwaL33uTc6c/edit#)
     - Questions links
       - [CSES Problem Set](https://cses.fi/problemset/list)
     - Generic Programming in Java
