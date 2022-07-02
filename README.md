@@ -11,7 +11,6 @@
         - Difference Array problems
           - [Regarding difference array](https://blogarithms.github.io/articles/2018-11/difference-arrays)
         - [Sliding Window](https://www.geeksforgeeks.org/tag/sliding-window/)
-        - 
     - Linked List
     - Stack
     - Queue
