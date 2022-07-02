@@ -1,1 +1,87 @@
-# interviewPrep2022
+## Interview Preparation 2022
+
+- Java Basics
+  - JAVA RegEx
+
+- DS Algo Topics
+  - Data Structure
+    - Array and Matrix
+      - Problems
+        - [Prefix Sum Problems](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
+        - Difference Array problems
+          - [Regarding difference array](https://blogarithms.github.io/articles/2018-11/difference-arrays)
+        - [Sliding Window](https://www.geeksforgeeks.org/tag/sliding-window/)
+        - 
+    - Linked List
+    - Stack
+    - Queue
+    - Heap
+    - Binary Tree
+    - Binary Search Tree
+    - AVL Tree
+    - Hashing
+    - Graph
+  
+  - Advanced Data Structure
+    - Segment Tree
+    - Trie
+    - Fenwick Tree
+  
+  - Algorithms
+    - Analysis of Algorithms
+    - Searching and Sorting
+    - Recursion and Backtracking
+    - Divide and Conquer
+    - DP
+    - Bit Algorithms
+    - Greedy
+    - Graph Algorithms
+    - Pattern Searching
+    - String Manipulation
+  
+  - CP
+    - Important links
+      - [Algorithms for CP](https://cp-algorithms.com/)
+      - [CP HandBook](https://cses.fi/book/book.pdf)
+      - [CP Book](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp2.pdf)
+      - [Codeforces List of Resources](https://codeforces.com/blog/entry/13529)
+      - [Codeforces Tutorials](https://codeforces.com/blog/entry/57282)
+    - Questions links
+      - [CSES Problem Set](https://cses.fi/problemset/list)
+    - Generic Programming in Java
+    - Bit manipulation
+    - Mathematics
+      - Adhoc/Formula Based/Brute Force
+      - Big Integers
+      - Exponentiation
+      - Number Systems/Series
+      - Pigeonhole Principle
+      - Inclusion - Exclusion Principle
+      - Probability & Expectation
+      - Combinatorics
+    - Number Theory
+      - Euclid and Extended Euclid
+      - Sieve of Eratosthenes
+      - Segmented Sieve
+      - Linear Diophantine Equations
+      - Euler Phi Function
+      - Wilson's Theorem
+      - Lucas Theorem
+      - Fermat's Little Theorem
+      - Miler - Rabin Primality Test
+      - Modular Exponentiation
+      - Matrix Exponentiation
+    - Binary Search
+    - Greedy Algorithms
+    - Recursion and Backtracking
+    - Query Algorithms
+      - Ranged Queries
+      - Segment Tree
+      - Binary Indexed Tree/Fenwick Tree
+    - DP
+    - MO's Algorithm
+    - Graph Algorithms
+    - Game Theory
+    - Geometric Algorithms
+    - Fast Fourier Transform
+    - Heavy Light Decomposition(HLD)
