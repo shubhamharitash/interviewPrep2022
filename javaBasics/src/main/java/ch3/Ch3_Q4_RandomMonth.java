@@ -1,4 +1,4 @@
-package Ch3;
+package ch3;
 
 public class Ch3_Q4_RandomMonth {
     public static void main(String[] args) {
