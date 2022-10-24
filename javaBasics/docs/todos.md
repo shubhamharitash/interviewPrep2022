@@ -1,3 +1,3 @@
 ## Todos
 
-- [ ] Think about a method for twinPrimes question 29 
+- [x] Think about a method for twinPrimes question 29 
