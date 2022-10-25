@@ -7,7 +7,7 @@ stateDiagram
     state "Byte Code" as s2
     state "Executed Program or Process" as s3
     s1 --> s2: Compile the source code<br> javac Hello.java
-    s2 --> s3: Run the bytecode<br> JVM is resopnsible for executing Java bytecode <br>and can run java bytecode on any machine <br> java Hello
+    s2 --> s3: Run the bytecode<br> JVM is responsible for executing Java bytecode <br>and can run java bytecode on any machine <br> java Hello
 ```
 - Note: `java Hello` command can be used for both running or compile then run a java program. If Hello is a compiled bytecode 'Hello.class' then it is executed, else if its a java program it will be compiled then executed
 
