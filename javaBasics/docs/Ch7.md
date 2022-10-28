@@ -1,8 +1,5 @@
 ## Single Dimensional Arrays
 
-#### Todos
-- [ ] do more questions of arrays in data structures and link important ones here
-
 #### Initialzing array
 ```java
 double[] myList = {1.9, 2.9, 3.4, 3.5};
