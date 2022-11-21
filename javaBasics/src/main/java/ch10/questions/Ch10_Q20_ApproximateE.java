@@ -1,7 +1,6 @@
 package ch10.questions;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.math.RoundingMode;
 
 public class Ch10_Q20_ApproximateE {
