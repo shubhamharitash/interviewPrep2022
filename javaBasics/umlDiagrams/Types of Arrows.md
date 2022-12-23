@@ -9,5 +9,9 @@
 | ..\|> | Realization   |
 | ..    | Link (Dashed) |
 
+```mermaid
+classDiagram
+	A <|-- B : implements
+```
 
 

@@ -1,5 +1,4 @@
 ## Java todos
-
 ```tasks
 not done 
 path includes javaBasics
@@ -10,8 +9,4 @@ path includes javaBasics
 not done 
 path includes README
 ```
-
-
-
-
 
