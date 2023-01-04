@@ -1,14 +1,16 @@
-## daily tasks
+## Daily tasks
 ```tasks
 not done
 path includes dailyNotes
 ```
 
-## dsa
+#### Plans
 ```tasks
 not done
-path includes dsa
+path includes planToPrepare
 ```
+
+
 #### All Tasks
 ```tasks
 not done

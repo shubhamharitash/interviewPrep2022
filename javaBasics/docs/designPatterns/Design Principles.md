@@ -19,8 +19,10 @@ classDiagram
 ```
 
 3) Favor composition over inheritance.
-4) Strive for loosely coupled designs betweenn objects that interact
+4) Strive for loosely coupled designs between objects that interact
 	1) Why loosely coupled?
+5) **Open/Closed principle**: Classes should be open for extension, but closed for modification.
+6) Depend upon abstractions. Do not depend upon concrete classes.
 
 
 

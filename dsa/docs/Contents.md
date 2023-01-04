@@ -3,6 +3,8 @@
 - [Educative](https://www.educative.io/blog/complete-guide-to-system-design)
 - [Coding Ninja Problems]([https://www.codingninjas.com/codestudio/guided-paths/system-design/content/132168/offering/2272404](https://www.codingninjas.com/codestudio/guided-paths/system-design/content/132168/offering/2272404))
 
+## [[Coding Patterns]]
+
 ## Data Structures
 #### [[Arrays]]
 #### [[Linked Lists]]

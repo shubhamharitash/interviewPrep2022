@@ -6,3 +6,6 @@ Test Harness is a collection of stubs, drivers and other supporting tools requir
 
 #### SOLID
 https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+#### Techical Dept
+- [ ] Find about it ⏫ 

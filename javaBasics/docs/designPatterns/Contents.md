@@ -6,3 +6,5 @@
 ###### [[Adapter Pattern]]
 ###### [[Strategy Pattern]]
 ###### [[Observer Pattern]]
+###### [[Decorator Pattern]]
+#### [[Factory Pattern]]
