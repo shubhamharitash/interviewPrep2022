@@ -12,3 +12,7 @@ if two objects with same keys are in input, they appear in same order as in inpu
 ## Sorting Algorithms
 1) [[Bubble Sort]]
 2) [[Selection Sort]]
+3) [[Insertion Sort]]
+4) [[Quick Sort]]
+5) [[Merge sort]]
+

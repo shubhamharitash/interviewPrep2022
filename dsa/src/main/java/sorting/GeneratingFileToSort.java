@@ -13,7 +13,7 @@ public class GeneratingFileToSort {
         try (
                 PrintWriter fileOutput = new PrintWriter(Paths.get("src/main/resources/sorting/input.txt").toFile())
         ) {
-            List<Integer> range = IntStream.range(0, 100000000).boxed()
+            List<Integer> range = IntStream.range(0, 10000000).boxed()
                     .collect(Collectors.toCollection(ArrayList::new));
             Collections.shuffle(range);
             range.forEach(fileOutput::println);

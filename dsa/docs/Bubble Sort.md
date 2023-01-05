@@ -1,6 +1,6 @@
 ## Time complexity
 > Best: $\Omega(n)$ (When array is already sorted)
-> Average:  $\theta(n)$
+> Average:  $\theta(n^2)$
 > Worst: $O(n^2)$ (When array is reverse sorted)
 
 ## Features

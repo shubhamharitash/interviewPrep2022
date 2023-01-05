@@ -1,3 +1,6 @@
+#### Patterns
+1) [[Push Logic]]
+
 #### Todos
 - [ ] Add coding patterns in given below format
 	- Usage
