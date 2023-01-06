@@ -1,29 +1,28 @@
-package sorting;
+package sorting.algorithms;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class BubbleSortJava {
-    public static void bubbleSort(List<Integer> numbers) {
+public class SelectionSortJava {
+    public static void selectionSort(List<Integer> numbers) {
         for (int i = 0; i < numbers.size(); i++) {
-            boolean swapped = false;
-            for (int j = 0; j < numbers.size() - 1 - i; j++) {
-                if (numbers.get(j) > numbers.get(j + 1)){
-                    swapped = true;
-                    Collections.swap(numbers, j, j+1);
+            int mini = i;
+            for (int j = i + 1; j < numbers.size(); j++) {
+                if(numbers.get(j) < numbers.get(mini)){
+                    mini = j;
                 }
             }
-            if(!swapped)
-                break;
+            Collections.swap(numbers, i, mini);
         }
     }
+
     public static void main(String[] args) {
         List<Integer> numbers = IntStream.range(0, 100).boxed().collect(Collectors.toList());
         Collections.shuffle(numbers);
         System.out.println(numbers);
-        bubbleSort(numbers);
+        selectionSort(numbers);
         System.out.println(numbers);
     }
 }

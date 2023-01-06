@@ -16,3 +16,4 @@ if two objects with same keys are in input, they appear in same order as in inpu
 4) [[Quick Sort]]
 5) [[Merge sort]]
 
+#### [[SortingQuestions]]
