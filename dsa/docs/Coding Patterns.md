@@ -2,7 +2,7 @@
 1) [[Push Logic]]
 
 #### Todos
-- [ ] Add coding patterns in given below format
+- [x] Add coding patterns in given below format ✅ 2023-01-07
 	- Usage
 	- DS Involved
 	- Sample Problems

@@ -2,6 +2,7 @@
 - [Pepcoding List](https://www.pepcoding.com/most-important-interview-questions-list-for-product-based-companies)
 - [Educative](https://www.educative.io/blog/complete-guide-to-system-design)
 - [Coding Ninja Problems]([https://www.codingninjas.com/codestudio/guided-paths/system-design/content/132168/offering/2272404](https://www.codingninjas.com/codestudio/guided-paths/system-design/content/132168/offering/2272404))
+- https://leetcode.com/problem-list/top-interview-questions/?page=1
 
 ## [[Coding Patterns]]
 
