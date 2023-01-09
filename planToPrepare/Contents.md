@@ -15,7 +15,7 @@
 #### [[Overall Plan]]
 
 #### Daily routine
-- [ ] 4 dsa questions
+- [x] 4 dsa questions ✅ 2023-01-08
 - [ ] Alex yu System design book
 
 #### 28 - 31 Dec
