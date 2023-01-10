@@ -17,3 +17,8 @@ if two objects with same keys are in input, they appear in same order as in inpu
 5) [[Merge sort]]
 
 #### [[SortingQuestions]]
+
+#### Easiest Way to Sort a collection
+```java
+System.out.println(tracks.stream().sorted(Comparator.comparing(Track::getLength)).collect(Collectors.toList()));
+```
