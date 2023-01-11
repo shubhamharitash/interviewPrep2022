@@ -5,6 +5,7 @@
 - https://leetcode.com/problem-list/top-interview-questions/?page=1
 
 ## [[Coding Patterns]]
+## [[Leetcode Basic Questions]]
 
 ## Data Structures
 #### [[Arrays]]

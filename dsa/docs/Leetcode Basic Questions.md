@@ -1,0 +1,7 @@
+1) [[Roman to Integer]]
+2) [[Palindrome Linked List]]
+3) [[Ransom Note]]
+4) [[Middle of LL]]
+5) [[KWeakestRows]]
+6) [[NumberOfSteps]]
+7) [[Richest Customer Wealth]]
