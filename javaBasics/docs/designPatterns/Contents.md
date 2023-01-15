@@ -1,6 +1,7 @@
 #### [[Introduction]]
 #### [[Design Principles]]
 #### [[New Terms]]
+#### [[javaBasics/docs/designPatterns/Resources]]
 
 #### Patterns
 ###### [[Adapter Pattern]]

@@ -1,6 +1,9 @@
 #### When can be applied
 If any question suggests that there exists a sorting, do think about applying binary search
 
+#### Concepts
+1) [[Binary Search on Answer]]
+
 #### Theory Questions
 1) [[Simple Binary search]]
 2) [[Descending sorted binary search]]
@@ -16,4 +19,9 @@ If any question suggests that there exists a sorting, do think about applying bi
 12) [[Find position of an element in infinite sorted array]](Good Logic)
 13) [[Find index of First One in Infinite Binary Sorted Array]]
 14) [[Minimum Difference Element in a Sorted Array]](Very Good Logic)
+15) [[Peak Element]](Very Good Logic)
+16) [[Finding Max Element in Bitonic Array]]
+17) [[Search in Bitonic Array]]
+18) [[Search Element in row-wise and column wise sorted array]]
+19) [[Allocate Pages of Book]]
 

@@ -1,0 +1,1 @@
+https://blog.bytebytego.com/p/ep17-design-patterns-cheat-sheet
