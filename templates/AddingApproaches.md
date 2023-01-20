@@ -1,2 +1,5 @@
-## Approaches
-#### Approach 1
+#### Approach n
+
+###### Code
+```java
+```

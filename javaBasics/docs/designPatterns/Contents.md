@@ -1,4 +1,4 @@
-#### [[Introduction]]
+#### [[javaBasics/docs/designPatterns/Introduction]]
 #### [[Design Principles]]
 #### [[New Terms]]
 #### [[javaBasics/docs/designPatterns/Resources]]

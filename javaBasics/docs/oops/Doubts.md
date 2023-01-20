@@ -20,4 +20,4 @@ List<Map.Entry<Integer, Integer>> temp = countMap
 > Explore this java 8 feature
 
 Todos
-- [ ] resolve doubts
+- [x] resolve doubts ✅ 2023-01-20

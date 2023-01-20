@@ -6,6 +6,8 @@
 
 ## [[Coding Patterns]]
 ## [[Leetcode Basic Questions]]
+## [[How to approach questions]]
+
 
 ## Data Structures
 #### [[Arrays]]

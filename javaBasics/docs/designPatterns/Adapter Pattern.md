@@ -2,6 +2,9 @@
 - You need to use existing class but interface doesn't match the one you require.
 - You need to use several existing subclasses but its impractical to adapt there features by subclassing every one of them
 
+#### Explanation
+[[adapterPattern.pdf]]
+
 #### Stucture
 ![[Adapter Pattern-1670743374290.jpeg]]
 
@@ -37,7 +40,8 @@ classDiagram
 ###### Implementation Structure
 ![[Adapter Pattern-1670751316614.jpeg]]
 
-
+#### Todos
+- [ ] Find a good example and implement it
 
 
 
