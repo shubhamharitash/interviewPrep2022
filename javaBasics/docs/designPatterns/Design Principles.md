@@ -23,6 +23,8 @@ classDiagram
 	1) Why loosely coupled?
 5) **Open/Closed principle**: Classes should be open for extension, but closed for modification.
 6) Depend upon abstractions. Do not depend upon concrete classes.
+7) [[Principle of Least Knowledge]]: talk only to your immediate friends.
+8) [[Hollywood Principle]]: don't call us, we will call you
 
 
 

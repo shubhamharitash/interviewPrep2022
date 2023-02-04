@@ -8,4 +8,8 @@
 8) [[Kth Grammer]]
 9) [[Tower Of Hanoi]]
 10) [[Unique Subsets]]
-11) 
+11) [[Permutation with Spaces]]
+12) [[Permutation with Case Change]]
+13) [[Letter case permutation]]
+14) [[Balanced Parentheses]]
+15) [[Print N-bit binary numbers having more 1s than 0s]]

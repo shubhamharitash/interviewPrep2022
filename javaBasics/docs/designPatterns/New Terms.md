@@ -9,3 +9,6 @@ https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-f
 
 #### Techical Dept
 - [ ] Find about it ⏫ 
+
+Volatile keyword in java
+https://www.digitalocean.com/community/tutorials/java-classloader

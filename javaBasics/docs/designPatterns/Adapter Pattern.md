@@ -40,8 +40,15 @@ classDiagram
 ###### Implementation Structure
 ![[Adapter Pattern-1670751316614.jpeg]]
 
+#### Definition
+The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
+![[Adapter Pattern-1674419345832.jpeg]]
+
+
+
 #### Todos
-- [ ] Find a good example and implement it
+- [x] Find a good example and implement it ✅ 2023-01-23
 
 
 

@@ -7,3 +7,6 @@
 > Recursive Tree
 > A: For every Recursion Problem try to create a recursive tree.
 > If you have created the recursive tree you have solved the problem
+
+> Methods to solve recursion problems
+> 1) Induction, base hypothesis method
