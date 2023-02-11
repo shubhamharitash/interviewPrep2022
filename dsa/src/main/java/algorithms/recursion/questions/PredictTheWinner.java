@@ -13,7 +13,8 @@ public class PredictTheWinner {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3606449, 6, 5, 9, 452429, 7, 9580316, 9857582, 8514433, 9, 6, 6614512, 753594, 5474165, 4, 2697293, 8, 7, 1};
-        PredictTheWinnerMethod(arr);
+//        int[] arr = {3606449, 6, 5, 9, 452429, 7, 9580316, 9857582, 8514433, 9, 6, 6614512, 753594, 5474165, 4, 2697293, 8, 7, 1};
+//        PredictTheWinnerMethod(arr);
+        System.out.println((800000L * 800000L)%10000000007L);
     }
 }

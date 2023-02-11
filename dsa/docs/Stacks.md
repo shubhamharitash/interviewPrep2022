@@ -14,4 +14,7 @@
 6) [[Maximum Area of Histogram]]
 7) [[Maximum Area of rectangle in Binary Matrix]]
 8) [[RainWater Trapping]]
-9) 
+
+#### Todos
+- [x] Aditya Verma Playlist ✅ 2023-02-11
+- [ ] Revise + Basics from Karumanchi

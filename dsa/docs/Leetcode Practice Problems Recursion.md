@@ -6,3 +6,6 @@
 6) [[Decode String]]
 7) [[Reorder List]] #ImportantQuestionRecursion #ImportantQuestionLinkedLists 
 8) [[Predict The Winner]] #ImportantQuestionRecursion #ImportantQuestionDP 
+9) [[Add Two Numbers]]
+10) [[Maximum number of points]] #ImportantQuestionRecursion #ImportantQuestionDP #ImportantQuestionBacktracking
+11) [[Elimination Game]] #ImportantQuestionRecursion #ImportantQuestionMathematics

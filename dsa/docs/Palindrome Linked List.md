@@ -13,8 +13,6 @@ place pointer at middle and iterate both list
 3) compare two lists
 
 ```java
-class Solution {
-
 public static ListNode reverseLL(ListNode head){
 
 ListNode prev = null;
@@ -43,19 +41,13 @@ ListNode fastPtr = head;
 
 while(fastPtr != null && fastPtr.next != null){
 
-// System.out.println(slowPtr.val + "," + fastPtr.val);
-
 slowPtr = slowPtr.next;
 
 fastPtr = fastPtr.next.next;
 
 }
 
-ListNode midPtr;
-
 if(fastPtr!=null){
-
-midPtr = slowPtr;
 
 slowPtr = slowPtr.next;
 
@@ -64,8 +56,6 @@ slowPtr = slowPtr.next;
 slowPtr = reverseLL(slowPtr);
 
 while(slowPtr!=null){
-
-// System.out.println(slowPtr.val + "," + head.val);
 
 if(slowPtr.val != head.val)
 
@@ -80,8 +70,6 @@ head = head.next;
   
 
 return true;
-
-}
 
 }
 ```

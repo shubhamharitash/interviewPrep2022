@@ -21,7 +21,7 @@
 #### 28 - 31 Dec
 - [ ] Complete Networking Course
 - [x] Daniel Lang Till Chapter 13 ✅ 2023-01-05
-- [ ] Design Patterns till Chapter 7
-- [ ] Have a bird's eye view of Head First Java Book
+- [x] Design Patterns till Chapter 7 ✅ 2023-02-11
+- [x] Have a bird's eye view of Head First Java Book ✅ 2023-02-11
 - [ ] Start with simpleStateMachine design, implement a rudimentary build with support for starting project easily with docker
 	- [ ] Add to ur blog on hashnode

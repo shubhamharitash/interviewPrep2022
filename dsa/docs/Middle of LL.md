@@ -1,3 +1,11 @@
+## Problem Statement
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+## Approaches
+#### Approach 1
+Two pointer approach
+
+###### Code
 ```java
 public ListNode middleNode(ListNode head) {  
     ListNode slowPtr = head;  
@@ -13,3 +21,4 @@ public ListNode middleNode(ListNode head) {
     return midPtr;  
 }
 ```
+
