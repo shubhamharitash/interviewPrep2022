@@ -1,0 +1,33 @@
+chars -> a c
+chars -> b b
+chars -> c a
+chars -> c a
+chars -> b b
+b b true
+c a false
+c b false
+b a false
+b b true
+c a false
+c b false
+b a false
+chars -> a c
+a c false
+bc ba false
+bc cb false
+a a true
+chars -> b b
+chars -> a c
+a c false
+b b true
+b c false
+a b false
+chars -> c a
+a c false
+b b true
+b c false
+a b false
+ab cb false
+c a false
+c c true
+ab ba false

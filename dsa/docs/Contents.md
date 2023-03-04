@@ -11,10 +11,11 @@
 
 ## Data Structures
 #### [[Arrays]]
-#### [[Linked Lists]]
-#### [[Stacks]]
-#### [[Queues]]
-#### [[Heap]]
+#### [[Linked Lists]](Lv1Done)(Karumanchi)
+#### [[Stacks]](Lv1Done)
+#### [[Queues]](Lv1Done)(Karumanchi)
+#### [[Heap]](Lv1Done)(Karumanchi)
+#### [[Trees]]
 #### [[Binary Tree]]
 #### [[Binary Search Tree]]
 #### [[AVL Tree]]
@@ -27,12 +28,11 @@
 #### [[Fenwick Tree]]
 
 ## Algorithms
-#### [[Coding Patterns]]
 #### [[Analysis of Algorithms]]
-#### [[Searching and Sorting]]
-#### [[Recursion and Backtracking]]
+#### [[Searching and Sorting]](Lv1Done)
+#### [[Recursion and Backtracking]](Lv1Done)
 #### [[Divide and Conquer]]
-#### [[DP]]
+#### [[DP]](Lv1Done)
 #### [[Bit Algorithms]]
 #### [[Greedy]]
 #### [[Graph Algorithms]]
