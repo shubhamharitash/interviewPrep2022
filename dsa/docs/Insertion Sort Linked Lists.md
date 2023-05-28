@@ -5,6 +5,7 @@ https://leetcode.com/problems/insertion-sort-list/description/
 #### Approach 1
 ![[Insertion Sort Linked Lists-1676097812951.jpeg]]
 Psedohead makes it a cakewalk.
+![[Insertion Sort Linked Lists-1684688020636.jpeg]]
 
 In case of arrays, we need to shift elements to insert at correct position but here we just need to find the correct position and arrange pointers
 ###### Code

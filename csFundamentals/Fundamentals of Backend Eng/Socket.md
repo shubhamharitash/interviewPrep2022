@@ -1,0 +1,7 @@
+In computer networking, a socket is a programming interface that allows communication between two computers over a network. It provides a means for processes running on different computers to send and receive data to and from each other. Sockets are commonly used in network communication protocols such as TCP/IP (Transmission Control Protocol/Internet Protocol) and UDP (User Datagram Protocol).
+
+A socket is identified by an IP address and a port number, which together form a unique address that other computers can use to send data to a specific process running on a specific computer. The combination of IP address and port number is often referred to as a "socket address".
+
+Sockets can be classified into two types: client sockets and server sockets. A client socket is used by a client process (such as a web browser or a file transfer client) to establish a connection to a server process (such as a web server or a file transfer server) over a network. Once the connection is established, the client and server processes can exchange data. Server sockets, on the other hand, listen for incoming connection requests from client sockets and accept those requests to establish a connection.
+
+Sockets provide a flexible and widely used mechanism for communication between processes running on different computers in a networked environment, and they are widely used in various network applications such as web browsing, email, file transfer, and real-time communication.

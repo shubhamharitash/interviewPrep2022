@@ -3,7 +3,7 @@
 ![[TCP-1672715825563.jpeg]]
 ![[TCP-1672715721272.jpeg]]
 ![[TCP-1672716065282.jpeg]]
-File Descriptor here is the state innformation which tells an incoming tcp segment whether it will be accepted or whether it will be dropped
+File Descriptor here is the state information which tells an incoming tcp segment whether it will be accepted or whether it will be dropped
 Both source and destination maintaines this data.
 It is of this form
 ![[TCP-1672716471444.jpeg]]

@@ -15,6 +15,7 @@ public static int generateRandomIndex(int start, int end) {
 }  
   
 public static int partition(List<Integer> numbers, int start, int end) {  
+    // we need to use end since we want correct element at partIndex
     Collections.swap(numbers, end, generateRandomIndex(start, end));  
     int elePivot = numbers.get(end);  
     int partIndex = start;  
@@ -37,14 +38,55 @@ public static void quickSort(List<Integer> numbers, int start, int end) {
 }
 ```
 
-## Logic
-1.  An array is divided into subarrays by selecting a **pivot element** (element selected from the array).  
-      
-    While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
-2.  The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
-3.  At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
+Using Array
+```java
+import java.util.*;
+class Solution {
+    public static void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    public static int generateRandomIndex(int start, int end) {  
+        return (int) (Math.random() * (end - start) + start); 
+    }  
+    public static int partition(int[] nums, int start, int end){
+        int pivot_index = generateRandomIndex(start, end);
+        swap(nums, pivot_index, end);
+        int elePivot = nums[end];
+        int ptr = start;
+        for(int i = start; i<=end; i++){
+            if(nums[i] < elePivot){
+                int temp = nums[i];
+                nums[i] = nums[ptr];
+                nums[ptr] = temp;
+                ptr++;
+            }
+        }
+        swap(nums, ptr, end);
+        return ptr;
+    }
+    public static void quickSort(int[] nums, int start, int end){
+        if(start>end){
+            return;
+        }
+        int pivot = partition(nums, start, end);
+        quickSort(nums, start, pivot - 1);
+        quickSort(nums, pivot + 1, end);
+    }
+    public int[] sortArray(int[] nums) {
+        quickSort(nums, 0, nums.length - 1);
+        return nums;
+    }
+}
+```
 
-#### Push logic in partition
+## Logic
+![[Quick Sort-1684596242044.jpeg]]
+
+#### Push logic in partition```java
+
+```
 The elements required to the left are always swapped with partition index
 comparision is performed for whether current is on left
 	if true it is swapped with ele at part_index since it always points to element at right

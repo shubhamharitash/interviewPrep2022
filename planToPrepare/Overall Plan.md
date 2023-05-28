@@ -7,5 +7,5 @@ Jan, Feb, March: Complete preparation and grind time
 April, May: Grind and apply only for remote
 June, July: Apply for all
 
-- [ ] Isolate skills required in a remote job
+- [x] Isolate skills required. ✅ 2023-04-08
 - [ ] Learn what is needed and what is to be expected

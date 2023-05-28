@@ -15,10 +15,8 @@
 #### [[Stacks]](Lv1Done)
 #### [[Queues]](Lv1Done)(Karumanchi)
 #### [[Heap]](Lv1Done)(Karumanchi)
-#### [[Trees]]
-#### [[Binary Tree]]
-#### [[Binary Search Tree]]
-#### [[AVL Tree]]
+#### [[Trees]] (Lv1Done)(Karumanchi)
+#### [[Disjoint Sets]] (Karumanchi)
 #### [[Hashing]]
 #### [[Graph]]
 
@@ -34,8 +32,7 @@
 #### [[Divide and Conquer]]
 #### [[DP]](Lv1Done)
 #### [[Bit Algorithms]]
-#### [[Greedy]]
-#### [[Graph Algorithms]]
+#### [[Greedy]](Karumanchi)(LeetcodeProblems)
 #### [[Pattern Searching]]
 #### [[String Manipulation]]
 

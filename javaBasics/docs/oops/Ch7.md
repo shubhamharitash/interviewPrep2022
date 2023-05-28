@@ -10,7 +10,12 @@ double[] myList = {1.9, 2.9, 3.4, 3.5};
 Arrays.fill(dp, true);
 ```
 
-#### Three Ways to Copy Arrays
+#### Four Ways to Copy Arrays
+
+Arrays.copyOf
+```
+Point[] px = Arrays.copyOf(points, points.length); 
+```
 
 ###### Loop and copy Individual elements
 ```java
