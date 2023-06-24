@@ -4,3 +4,5 @@
 
 LLD (Design Patterns and its problems)
 HLD
+
+https://colin-scott.github.io/personal_website/research/interactive_latency.html

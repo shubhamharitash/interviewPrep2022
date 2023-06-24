@@ -2,6 +2,7 @@ https://tmuxcheatsheet.com/
 #### Prefix Key
 Used for giving commands to tmux
 Default: `Ctrl + B`
+Set in config: `Ctrl + Space`
 
 Press prefix, release then press the required command
 
@@ -62,7 +63,9 @@ tmux attach -t "session_name"
 ```
 
 7) ![[Tmux Shortcuts-1685309413663.jpeg]]
-8) 
+8) prefix + d: exit without killing session
+9) There are two key bindings. **prefix + Ctrl-s** to save tmux environment and **prefix + Ctrl-s** to restore tmux environment. It's as simple as that.
+
 #### Commands
 1) Switch panes from 1 to 0
 ```
@@ -75,4 +78,8 @@ tmux new -s my-session
 3) Attach to a session using
 ```
 tmux attach -t "session_name"
+```
+4) Kill all windows except the one which is open
+```
+:kill-windows -a
 ```

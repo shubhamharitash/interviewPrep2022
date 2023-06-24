@@ -4,6 +4,7 @@
 3) [[CS Fundamentals]]
 4) [[DSA]] 
 5) [[Development]]
+6) [[Open Source]]
 
 ## Resources for Jobs
 1) linkedIn
@@ -15,6 +16,7 @@
 
 #### [[Overall Plan]]
 #### [[Overall Plan V2]]
+#### [[How to learn new languages]]
 
 #### Daily routine
 - [x] 4 dsa questions ✅ 2023-01-08
