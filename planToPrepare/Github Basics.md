@@ -17,7 +17,7 @@ git checkout main^
 ```
 
 #### Branch Forcing
-![[Pasted image 20230710215717.png]]
+![[Github Basics-1689006437992.jpeg]]
 
 #### Reversing changes
 https://towardsdatascience.com/mastering-git-reset-v-revert-12701108a451
@@ -44,4 +44,16 @@ git cherry-pick C2 C4
 ```
 ![[Github Basics-1689011312244.jpeg]]
 ![[Github Basics-1689011338045.jpeg]]
+
+#### Rebase
+```
+git rebase -i HEAD~3
+```
+will help you reorder last 3 commits in corrent branch
+
+```
+git rebase -i main
+```
+will add all commits in local branch ahead of commits in main
+**Be carefull while doing this since it changes local branch completely, can be distructive**
 
