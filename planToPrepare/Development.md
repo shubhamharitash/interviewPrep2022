@@ -1,5 +1,5 @@
 
-1) github basics(revise and have a cheatsheet for most used commands)
+1) [[Github Basics]] (revise and have a cheatsheet for most used commands)
 2) blog or post every 3 days
 	1) Read a blog every day
 	2) Work on project each weekend

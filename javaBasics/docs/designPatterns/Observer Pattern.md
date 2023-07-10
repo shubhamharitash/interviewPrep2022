@@ -7,6 +7,8 @@ Publishers + Subscribers = Observer Pattern
 #### Weather station example
 ![[Observer Pattern-1671730849335.jpeg]]
 
+Test harness is **a collection of software and test data used by developers to unit test software models during development**
+
 #### Java's Internal Observer Pattern
 ![[Observer Pattern-1671730468408.jpeg]]
 
