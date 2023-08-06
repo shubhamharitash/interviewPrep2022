@@ -21,11 +21,11 @@ prefix + %: Horizontal Split
 prefix + ": Vertical Split
 prefix + arrowkeys: navigate between panes
 
-![[Screencast from 29-05-23 01:16:24 AM IST.webm]]
+![[Screencast1.webm]]
 
 prefix + q: show a number on panes which if pressed switches to that pane
 
-![[Screencast from 29-05-23 01:22:50 AM IST.webm]]
+![[Screencast3.webm]]
 
 prefix + z: toggle that pane to take up full screen
 prefix + !: converts a pane to window
@@ -55,7 +55,7 @@ tmux
 ```
 4) prefix + w: preview windows in each session
 5) h and l keys can be used to toggle hierarchy
-![[Screencast from 29-05-23 01:43:53 AM IST.webm]]
+![[Screencast2.webm]]
 
 6) Attach to a session using
 ```

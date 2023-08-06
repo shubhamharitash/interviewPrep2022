@@ -10,7 +10,7 @@ If any question suggests that there exists a sorting, do think about applying bi
 3) [[Order Agnostic search]]
 4) [[First and Last Occurence Of Element in Array]](Good Logic)
 5) [[Count of an element in sorted array]]
-6) [[How many times is a sorted array rotated?]]
+6) [[How many times is a sorted array rotated]]
 7) [[Find an element in sorted rotated array]](Good Logic)
 8) [[Find an Element in Nearly sorted array]](Good Logic)
 9) [[Floor of an element in sorted array]]
