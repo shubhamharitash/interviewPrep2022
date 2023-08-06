@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Syntax Highlighting (Dark Mode)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css">
+  <style>
+    body {
+      background-color: #282c34;
+      color: #abb2bf;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .code-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .code-block {
+      flex: 1;
+      width: 30%;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    pre {
+      padding: 15px;
+      overflow-x: auto;
+      background-color: #2f343d;
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    #exchange-btn {
+      background-color: #61afef;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .button-container {
+      display: flex;
+      align-items: center;
+    }
+    #uri-container {
+      padding: 10px;
+      background-color: #383e4a;
+      border-radius: 5px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>JSON Syntax Highlighting (Dark Mode)</h1>
+  <div class="code-container">
+    <div class="code-block">
+      <h2 id="heading1">JSON Block 1</h2>
+      <pre><code class="json" id="json-code" contenteditable>
+{
+  "scheme": "https",
+  "host": "www.example.com",
+  "port": "8080",
+  "pathSegment": [
+    "path",
+    "to",
+    "resource"
+  ],
+  "queryParam": {
+    "param1": [
+      "value1",
+      "value2"
+    ],
+    "param2": 12,
+    "param3": "value3"
+  },
+  "fragment": "resource1"
+}
+      </code></pre>
+    </div>
+    <div class="button-container">
+      <button id="exchange-btn">Exchange Blocks</button>
+    </div>
+    <div class="code-block">
+      <h2 id="heading2">JSON Block 2 (URI)</h2>
+      <div id="uri-container"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>
+    function updateCode() {
+      const codeElement = document.getElementById('json-code');
+      const updatedJSON = codeElement.textContent.trim();
+      const highlightedJSON = hljs.highlight('json', updatedJSON).value;
+      codeElement.innerHTML = highlightedJSON;
+      updateURI();
+    }
+
+    function updateCode2() {
+      const codeElement2 = document.getElementById('json-code-2');
+      const updatedJSON2 = codeElement2.textContent.trim();
+      const highlightedJSON2 = hljs.highlight('json', updatedJSON2).value;
+      codeElement2.innerHTML = highlightedJSON2;
+    }
+
+    function updateURI() {
+      const codeElement = document.getElementById('json-code');
+      const jsonData = JSON.parse(codeElement.textContent.trim());
+
+      const { scheme, host, port, pathSegment, queryParam, fragment } = jsonData;
+      const queryParams = new URLSearchParams(queryParam);
+
+      const uri = `${scheme}://${host}:${port}/${pathSegment.join('/')}${queryParams.toString() ? `?${queryParams.toString()}` : ''}${fragment ? `#${fragment}` : ''}`;
+
+      const uriContainer = document.getElementById('uri-container');
+      uriContainer.textContent = uri;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const codeElement = document.getElementById('json-code');
+      const codeElement2 = document.getElementById('json-code-2');
+      const heading1 = document.getElementById('heading1');
+      const heading2 = document.getElementById('heading2');
+      const exchangeButton = document.getElementById('exchange-btn');
+
+      codeElement.addEventListener('input', updateCode);
+      codeElement2.addEventListener('input', updateCode2);
+
+      exchangeButton.addEventListener('click', function() {
+        const tempHTML = codeElement.innerHTML;
+        const tempHeading = heading1.innerHTML;
+        codeElement.innerHTML = codeElement2.innerHTML;
+        heading1.innerHTML = heading2.innerHTML;
+        codeElement2.innerHTML = tempHTML;
+        heading2.innerHTML = tempHeading;
+
+        // Re-highlight the exchanged JSON code
+        hljs.highlightBlock(codeElement);
+        hljs.highlightBlock(codeElement2);
+
+        // Update URI in Block 2
+        updateURI();
+      });
+
+      hljs.highlightAll();
+    });
+  </script>
+</body>
+</html>

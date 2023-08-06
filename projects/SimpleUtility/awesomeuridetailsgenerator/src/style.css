@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.block {
+  width: 45%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+}
+
+/* Dark mode styles using media query */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+  }
+
+  textarea {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+  }
+
+  .hljs {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+  }
+
+  .hljs-keyword,
+  .hljs-literal,
+  .hljs-number,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-type {
+    color: #f92aad;
+  }
+
+  .hljs-string {
+    color: #21bf73;
+  }
+
+  .hljs-title,
+  .hljs-section,
+  .hljs-attribute,
+  .hljs-symbol,
+  .hljs-params {
+    color: #d62828;
+  }
+
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-doctag,
+  .hljs-meta,
+  .hljs-meta-string,
+  .hljs-attr,
+  .hljs-variable,
+  .hljs-template-tag,
+  .hljs-template-variable {
+    color: #959595;
+  }
+}

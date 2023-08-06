@@ -46,6 +46,7 @@ git cherry-pick C2 C4
 ![[Github Basics-1689011338045.jpeg]]
 
 #### Rebase
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 ```
 git rebase -i HEAD~3
 ```
@@ -57,3 +58,124 @@ git rebase -i main
 will add all commits in local branch ahead of commits in main
 **Be carefull while doing this since it changes local branch completely, can be distructive**
 
+```
+git rebase <source_whos_changes_reqd> <branch_receiving_changes>
+```
+
+#### Adding Staged changes to the same commit
+```
+git commit --amend
+```
+
+#### Remote Changes 
+For downloading remote repo
+```shell
+git clone <url>
+```
+git maintains two branches here, origin/main and origin, so that it can keep track of what work is done local and what is there on the remote
+
+Whenever we checkout remote branch, we go into detached HEAD mode. Any commit made will not be updated in the remote branch.
+
+```shell
+git fetch
+```
+Used for fetching commits from remote repository
+![[Github Basics-1689093907611.jpeg]]
+
+**fetch** command doesn't change the state of local repository, only remote repository gets updated.
+It can be referred to as the download step.
+
+once we have the commits in **origin/main** branch, we can easily incorporate those changes using traditional git methods like cherry-pick, merge, rebase.
+
+```shell
+git pull
+```
+This command does the job of both fetching the remote changes and updating the local repository
+
+![[Github Basics-1689096704850.jpeg]]
+
+```shell
+git push
+```
+This command pushes the changes in local repository to remote repository
+
+###### Updating changes in Remote
+![[Github Basics-1689097449303.jpeg]]
+
+For resolving above scenario, we can either
+```shell
+git fetch
+git rebase o/main
+git push
+```
+
+or 
+```shell
+git fetch
+git merge o/main
+git push
+```
+
+![[Github Basics-1689097755431.jpeg]]
+
+```shell
+git pull --rebase
+git push
+``` 
+
+```shell
+git pull
+git push
+```
+both above can be used to update changes to remote repository
+
+#### Changing Tracking of Branches
+
+```shell
+git checkout -b foo origin/main
+git pull
+```
+
+This will update any new commits in **origin/main** to **foo**
+
+#### Advanced Details
+###### How git push works?
+![[Github Basics-1689112323665.jpeg]]
+
+```
+git push origin <src>:<dest>
+```
+Here, we have specified source of commits, destination remote branch. If the branch doesn't exists at remote it will create a new branch at remote
+
+![[Github Basics-1689136480995.jpeg]]
+![[Github Basics-1689136490606.jpeg]]
+
+###### How git fetch works?
+Pretty similar to push except in reverse direction
+```
+git fetch
+```
+It updates all remote branches on local machine(downloading step)
+
+```
+git fetch origin main
+```
+It updates any new commits in remote onto origin/main
+
+💀
+```
+git fetch foo:main 
+```
+it updates all the commits in origin/foo branch to local main branch. Unlike normal fetch behaviour, it is able to directly add commits to the local branch from remote branch at remote repository
+
+![[Github Basics-1689138440997.jpeg]]
+![[Github Basics-1689138457937.jpeg]]
+```shell
+git pull origin main:foo
+```
+
+is equivalent to 
+```shell
+git fetch origin main:foo
+git merge foo
+```
